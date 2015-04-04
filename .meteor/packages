@@ -8,4 +8,4 @@ autopublish
 insecure
 iron:router
 
-bootstrap
+twbs:bootstrap

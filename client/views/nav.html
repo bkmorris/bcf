@@ -1,9 +1,10 @@
 <template name="nav">
-	<ul>
-		<li><a href="{{pathFor 'products'}}">Products and Services</a></li>
-		<li>Customer Service</li>
-		<li>Exchange</li>	
-		<li>Markets</li>
-		<li>Business</li>
+
+	<ul id="main-nav">
+		<li class="col-md-3"><a href="{{pathFor 'products'}}">Products and Services</a></li>
+		<li class="col-md-2"><a href="{{pathFor 'customerservice'}}">Customer Service</a></li>
+		<li class="col-md-2"><a href="{{pathFor 'exchange'}}">Exchange</a></li>	
+		<li class="col-md-2"><a href="{{pathFor 'markets'}}">Markets</a></li>
+		<li class="col-md-2"><a href="{{pathFor 'business'}}">Business</a></li>
 	</ul>
 </template>

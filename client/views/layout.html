@@ -1,6 +1,16 @@
 <template name="layout">
-	{{> header}}
-	{{> nav}}
-	
-	{{> yield}}
+
+	<div class="container">
+		<div class="row">
+			{{> header}}
+		</div>
+		
+		<div id="nav-row" class="row">
+			{{> nav}}
+		</div>
+
+		<div class="row">
+			{{> yield}}
+		</div>
+	</div>
 </template>
