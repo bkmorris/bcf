@@ -1,10 +1,27 @@
 <template name="nav">
 
-	<ul id="main-nav">
-		<li class="col-md-3"><a href="{{pathFor 'products'}}">Products and Services</a></li>
-		<li class="col-md-2"><a href="{{pathFor 'customerservice'}}">Customer Service</a></li>
-		<li class="col-md-2"><a href="{{pathFor 'exchange'}}">Exchange</a></li>	
-		<li class="col-md-2"><a href="{{pathFor 'markets'}}">Markets</a></li>
-		<li class="col-md-2"><a href="{{pathFor 'business'}}">Business</a></li>
-	</ul>
+<nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="{{pathFor 'products'}}">Products and Services</a></li>
+		<li><a href="{{pathFor 'customerservice'}}">Customer Service</a></li>
+		<li><a href="{{pathFor 'exchange'}}">Exchange</a></li>	
+		<li><a href="{{pathFor 'markets'}}">Markets</a></li>
+		<li><a href="{{pathFor 'business'}}">Business</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+</nav>
+
 </template>
